@@ -1,1 +1,12 @@
-{"Servers":[{"Version":"mdm-byod", "BaseURL":"https://manage.microsoft.com/EnrollmentServer/PostReportDeviceInfoForUEV2?aadTenantId=992921c8-4c3a-472b-9199-8d083d5ba6ee"}]}
+{
+  "authentication": {
+    "auth-method": "access-token",
+    "token-endpoint": "https://login.microsoftonline.com/992921c8-4c3a-472b-9199-8d083d5ba6ee/oauth2/v2.0/token"
+  },
+  "enrollment": {
+    "profile-endpoint": "https://enterpriseregistration.windows.net/manage/992921c8-4c3a-472b-9199-8d083d5ba6ee/enrollmentserver/URL?api-version=2.0"
+  },
+  "mdm": {
+    "server-url": "https://enrollment.manage.microsoft.com/enrollmentserver/discovery.svc"
+  }
+}
